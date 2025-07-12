@@ -1,13 +1,24 @@
-# 🎲 Dice Game
 
-A fun, interactive two-player dice game built using HTML, CSS, and JavaScript!
+# 🔢 Guess The Number Game
 
-## 🕹️ Gameplay Rules
+A simple number guessing game built using HTML, CSS, and JavaScript. The player has to guess a random number between 1 and 20 with limited chances!
 
-- Two players take turns rolling a die.
-- Each roll adds to the **current score** unless the player rolls a `1`, which ends their turn and resets their current score to `0`.
-- Players can **hold** their score to add the current score to their **total score** and end their turn.
-- The first player to reach **100 points** wins the game!
+## 🎮 How to Play
+
+- The game randomly selects a number between **1 and 20**.
+- You enter your guess in the input box and click **"Check!"**.
+- If your guess is too high or too low, the game will give you a hint.
+- You start with a score of 20. Each wrong guess decreases your score by 1.
+- If you guess correctly, you win and your score is displayed!
+- Try to beat the **high score** by guessing the number in fewer attempts.
+
+## 🧠 Technologies Used
+
+- **HTML5** – for the page structure
+- **CSS3** – for styling
+- **JavaScript (ES6)** – for game logic
 
 ## 📁 Project Structure
+
+
 
