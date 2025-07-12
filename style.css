@@ -1,0 +1,131 @@
+/* style.css */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+body {
+  background-color: #fff7d1;
+  color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Header styling */
+header {
+  margin-bottom: 30px;
+}
+
+h1 {
+  font-size: 2.8rem;
+  color: #ff6f61;
+}
+
+.between {
+  font-size: 1.1rem;
+  color: #777;
+  margin-top: 5px;
+  display:grid;
+}
+
+.btn-again {
+  padding: 10px 20px;
+  font-size: 1rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 572px;
+  background-color: #ffcb77;
+  color: #333;
+  border: 2px solid #ff6f61;
+  border-radius: 10px;
+  cursor: pointer;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-again:hover {
+  background-color: #ffd995;
+}
+
+.number {
+  font-size: 3rem;
+  width: 90px;
+  height: 90px;
+  background-color: #fff;
+  color: #333;
+  border: 3px solid #ff6f61;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  
+}
+
+/* Main layout */
+main {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.left,
+.right {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+/* Input field */
+.guess {
+  padding: 10px;
+  width: 150px;
+  font-size: 1rem;
+  border: 2px solid #ffcb77;
+  border-radius: 8px;
+  background-color: #fffceb;
+  text-align: center;
+  
+}
+
+.btn-check {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #00bfff;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-check:hover {
+  background-color: #0099cc;
+ 
+}
+
+/* Messages and scores */
+.message {
+  font-size: 1.3rem;
+  color: #444;
+  min-height: 30px;
+}
+
+.label-score,
+.label-highscore {
+  font-size: 1.1rem;
+}
+
+.score,
+.highscore {
+  font-weight: bold;
+  color: #ff6f61;
+  margin-left: 6px;
+}
